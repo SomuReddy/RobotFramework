@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${URL} =  https://flipkart.com
+${URL} =  http://www.way2automation.com
 
 *** Test Cases ***
 Testcase for Way2Automation site
