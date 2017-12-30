@@ -8,11 +8,11 @@ class Amazon(object):
     @pytest.fixture(scope="session")
     def search(self):
         baseurl = "https://www.amazon.in"
-        #driver = webdriver.Firefox()
+        driver = webdriver.Firefox()
         #driver = webdriver.Chrome()
         #driver = webdriver.Ie()
 
-        driver = webdriver.Edge('C:\Users\Somu Reddy\Workspace_Py\MicrosoftWebDriver.exe')
+        # driver = webdriver.Edge("")
         driver.get(baseurl)
         driver.maximize_window()
         time.sleep(3)
