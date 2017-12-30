@@ -1,2 +1,3 @@
 dir
-robot Tests/way2auto.robot
+cd Tests
+robot way2auto.robot
