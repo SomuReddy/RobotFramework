@@ -2,4 +2,5 @@ import requests
 
 r = requests.get("http://www.google.com")
 
-r.json()
+print(r.status_code)
+
