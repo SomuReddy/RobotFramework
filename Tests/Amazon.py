@@ -11,7 +11,8 @@ class Amazon(object):
         #driver = webdriver.Firefox()
         #driver = webdriver.Chrome()
         #driver = webdriver.Ie()
-        driver = webdriver.Edge()
+
+        driver = webdriver.Edge('C:\Users\Somu Reddy\Workspace_Py\MicrosoftWebDriver.exe')
         driver.get(baseurl)
         driver.maximize_window()
         time.sleep(3)
