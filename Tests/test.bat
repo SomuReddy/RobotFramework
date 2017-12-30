@@ -1,0 +1,1 @@
+robot way2auto.robot
