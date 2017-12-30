@@ -1,1 +1,2 @@
-robot way2auto.robot
+dir
+robot Tests/way2auto.robot
